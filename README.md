@@ -1,3 +1,5 @@
+### This is a fork for personal use. Readme edited a bit. [Link to original.](https://github.com/Soorma07/OS-X-Bluetooth-Pairing-Value-To-Windows-Value)
+
 OS-X-Bluetooth-Pairing-Value-To-Windows-Value
 =============================================
 
@@ -15,11 +17,11 @@ Follow these steps to get your bluetooth device working.
 
 -  pair device with windows
 -  reboot and pair with OS X
--  run this script/app
+-  run script: `sudo osascript *.scpt`
 -  save the link key/s somewhere you can reach from windows
 -  boot to windows
 -  run regedit with admin rights
--  go to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys\BD_ADDR
+-  go to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Keys\BD_ADDR (if empty: see possible issues)
 -  edit the key of the device
 -  reboot
 
